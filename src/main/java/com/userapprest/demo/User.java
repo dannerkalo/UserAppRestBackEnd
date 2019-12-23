@@ -2,19 +2,24 @@ package com.userapprest.demo;
 
 public class User {
 
-	  private final long id;
-	  private final String name;
+	  private int id;
+	  private String name;
 
-	  public User(long id, String name) {
-	    this.id = id;
-	    this.name = name;
+	  
+	  public void setUserId(int id) {
+			this.id = id;
+	  }
+	  
+	  public long getUserId() {
+	    return this.id;
 	  }
 
-	  public long getId() {
-	    return id;
+	  
+	  public void setUserName(String name) {
+			this.name = name;
 	  }
-
-	  public String getName() {
-	    return name;
+	  
+	  public String getUserName() {
+	    return this.name;
 	  }
 	}
