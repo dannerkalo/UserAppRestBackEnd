@@ -1,4 +1,4 @@
-package com.userapprest.demo;
+package com.userapprest.demo.model;
 
 public class User {
 

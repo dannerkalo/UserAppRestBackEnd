@@ -1,9 +1,11 @@
-package com.userapprest.demo;
+package com.userapprest.demo.controller;
 	
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.userapprest.demo.model.User;
 
 	@RestController
 	public class UserController {
@@ -20,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 			
 			//user2
 			User user2 = new User();
-			user2.setUserId(9696);
+			user2.setUserId(101);
 			user2.setUserName("Ephrem");;
 			
 			//users
